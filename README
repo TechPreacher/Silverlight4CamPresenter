@@ -1,0 +1,13 @@
+This project has been created for demo purposes by sascha@corti.com (@TechPreacher).
+
+Presenting (and projecting the screens of) real mobile devices to an audience has always been a hassle. Especially the ones, that don’t have an USB VGA port.
+
+Up to now this meant: Rent or buy an expensive and suboptimal Wolfvision Document Presenter. Suboptimal because most of these devices have low frame rates and are made for projecting documents and not glowing screens.
+
+A cheap alternative is using a small tripod, a HD-capable webcam and this solution, a Silverlight 4 Out-Of-Browser Application, running on the presentation laptop.
+
+The Silverlight Out-Of-Browser application takes care of displaying the camera image windowed or full screen and handles scaling (Stretch Uniform, Stretch Fill and Stretch None). It also allows to set the video source (in case there are multiple web cams connected to the system).For convenience, it also has a “Freeze Frame” function.
+
+A small problem is posed by many webcams' default settings that permanently re-focus and re-set the exposure. You can however manually override  these settings in the software shipped with many of the webcams before you start the Silverlight app.
+
+The only “fiddling” you have to do is getting a small tripod and mounting your webcam facing down.
